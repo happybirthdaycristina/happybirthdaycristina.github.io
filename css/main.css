@@ -9,12 +9,74 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Space Mono';
+
 }
+
+html body {
+    background-color: #F8D9D5;
+}
+html body .happy {
+    background-color: #F8D9D5;
+    font-size: 50px;
+    position: absolute;
+    left: -160px;
+}
+html body .love {
+    display: none;
+}
+html body .gallery .slide {
+width: 560px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+}
+html body .birthday {
+    background-color: #F8D9D5;
+    background-color: #F8D9D5;
+    font-size: 50px;
+    position: absolute;
+    right: -360px;
+    top: 73px;
+    display: none;
+}
+html body .sliding-panel {
+    background-color: #D8E2EC;
+    height: 900px;
+    width: 100%;
+}
+html body .sliding-panel p {
+    font-family: 'Space Mono';
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 39%;
+    right: 200px;
+    font-size: 25px;
+}
+
+html body .sliding-panel .bomb {
+    background-image: url("../img/bomb.png");
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    margin: 0 auto;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
 
 /*
  * Remove text-shadow in selection highlight:
